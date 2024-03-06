@@ -12,3 +12,5 @@ This is a presentation on what nix is and how it can be used to produce replicab
 
 - [NixOS](https://nixos.org/)
 - [Nixpkgs](https://search.nixos.org/packages)
+- [Zero to Nix](https://zero-to-nix.com/)
+- [FlakeHub](https://flakehub.com/)

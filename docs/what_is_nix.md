@@ -66,3 +66,21 @@ index e5ab36e..e293cdd 100644
  What about the compiler used to build node? What about the kernel? What about any extra env variables/flags used while building the kernel?
 
  That is exactly where nix comes in, it lets you pin everything all the way down. At least that is what the idea of nix is in general. Nix can easily produce replicabable environments that are consistent across machines.
+
+ ## Nix In Action
+
+ **Build**
+
+ `nix build "nixpkgs#bat"`
+ 
+ **Run**
+
+ `echo "Hello Nix" | nix run "nixpkgs#ponysay"`
+
+ **Develop**
+
+ `nix develop "github:DeterminateSystems/zero-to-nix#javascript"`
+
+**Search**
+
+`nix search nixpkgs cargo`
