@@ -5,7 +5,7 @@ This is a presentation on what nix is and how it can be used to produce replicab
 ## Summary
 
 - [What is nix?](docs/what_is_nix.md)
-- [small rust demo](docs/small_rust_demo.md)
+- [small rust demo](docs/small_demo_rust.md)
 - [Nix Shell](docs/shell.md)
 
 ## Helpful Links
